@@ -155,9 +155,7 @@ cmake  -G "Visual Studio 17 2022" .
 cmake --build . --config Release
 ```
 Console output:
-
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-
   Zycore.vcxproj -> C:\gitzone\perses\build\vendor\zydis\zycore\Release\Zycore.lib
   Zydis.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Zydis.lib
   EncodeFromScratch.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\EncodeFromScratch.exe
@@ -173,6 +171,7 @@ MSBuild version 17.3.1+2badb37d1 for .NET Framework
   ZydisPerfTest.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisPerfTest.exe
   spdlog.vcxproj -> C:\gitzone\perses\build\vendor\spdlog\Release\spdlog.lib
   perses.vcxproj -> C:\gitzone\perses\build\Release\perses.exe
+
 
 # Dependencies
 
