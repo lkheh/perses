@@ -144,8 +144,33 @@ PERSES utilizes [cmkr](https://github.com/build-cpp/cmkr). In order to build the
 
 ```
 git clone --recursive https://github.com/mike1k/perses.git
+cd perses
+git submodule update --init 
+cd perses/vendor
+git clone https://github.com/mike1k/pepp.git
+cd ..
 cmake -B build
+cd build
+cmake  -G "Visual Studio 17 2022" .
+cmake --build . --config Release
 ```
+Console output:
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+  Zycore.vcxproj -> C:\gitzone\perses\build\vendor\zydis\zycore\Release\Zycore.lib
+  Zydis.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Zydis.lib
+  EncodeFromScratch.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\EncodeFromScratch.exe
+  Formatter01.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter01.exe
+  Formatter02.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter02.exe
+  Formatter03.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter03.exe
+  RewriteCode.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\RewriteCode.exe
+  ZydisDisasm.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisDisasm.exe
+  ZydisFuzzDecoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzDecoder.exe
+  ZydisFuzzEncoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzEncoder.exe
+  ZydisFuzzReEncoding.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzReEncoding.exe
+  ZydisInfo.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisInfo.exe
+  ZydisPerfTest.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisPerfTest.exe
+  spdlog.vcxproj -> C:\gitzone\perses\build\vendor\spdlog\Release\spdlog.lib
+  perses.vcxproj -> C:\gitzone\perses\build\Release\perses.exe
 
 # Dependencies
 
