@@ -157,6 +157,7 @@ cmake --build . --config Release
 Console output:
 
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
+
   Zycore.vcxproj -> C:\gitzone\perses\build\vendor\zydis\zycore\Release\Zycore.lib
   Zydis.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Zydis.lib
   EncodeFromScratch.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\EncodeFromScratch.exe
