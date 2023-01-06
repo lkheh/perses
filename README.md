@@ -154,23 +154,23 @@ cd build
 cmake  -G "Visual Studio 17 2022" .
 cmake --build . --config Release
 ```
-Console output:
-MSBuild version 17.3.1+2badb37d1 for .NET Framework
-  Zycore.vcxproj -> C:\gitzone\perses\build\vendor\zydis\zycore\Release\Zycore.lib
-  Zydis.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Zydis.lib
-  EncodeFromScratch.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\EncodeFromScratch.exe
-  Formatter01.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter01.exe
-  Formatter02.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter02.exe
-  Formatter03.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter03.exe
-  RewriteCode.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\RewriteCode.exe
-  ZydisDisasm.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisDisasm.exe
-  ZydisFuzzDecoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzDecoder.exe
-  ZydisFuzzEncoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzEncoder.exe
-  ZydisFuzzReEncoding.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzReEncoding.exe
-  ZydisInfo.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisInfo.exe
-  ZydisPerfTest.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisPerfTest.exe
-  spdlog.vcxproj -> C:\gitzone\perses\build\vendor\spdlog\Release\spdlog.lib
-  perses.vcxproj -> C:\gitzone\perses\build\Release\perses.exe
+Console output:<br>
+MSBuild version 17.3.1+2badb37d1 for .NET Framework<br>
+  Zycore.vcxproj -> C:\gitzone\perses\build\vendor\zydis\zycore\Release\Zycore.lib<br>
+  Zydis.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Zydis.lib<br>
+  EncodeFromScratch.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\EncodeFromScratch.exe<br>
+  Formatter01.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter01.exe<br>
+  Formatter02.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter02.exe<br>
+  Formatter03.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\Formatter03.exe<br>
+  RewriteCode.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\RewriteCode.exe<br>
+  ZydisDisasm.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisDisasm.exe<br>
+  ZydisFuzzDecoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzDecoder.exe<br>
+  ZydisFuzzEncoder.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzEncoder.exe<br>
+  ZydisFuzzReEncoding.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisFuzzReEncoding.exe<br>
+  ZydisInfo.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisInfo.exe<br>
+  ZydisPerfTest.vcxproj -> C:\gitzone\perses\build\vendor\zydis\Release\ZydisPerfTest.exe<br>
+  spdlog.vcxproj -> C:\gitzone\perses\build\vendor\spdlog\Release\spdlog.lib<br>
+  perses.vcxproj -> C:\gitzone\perses\build\Release\perses.exe<br>
 
 
 # Dependencies
