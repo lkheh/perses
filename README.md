@@ -146,7 +146,7 @@ PERSES utilizes [cmkr](https://github.com/build-cpp/cmkr). In order to build the
 git clone --recursive https://github.com/mike1k/perses.git
 cd perses
 git submodule update --init 
-cd perses/vendor
+cd vendor
 git clone https://github.com/mike1k/pepp.git
 cd ..
 cmake -B build
